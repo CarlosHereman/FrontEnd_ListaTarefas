@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Lista de tarefas</h1>
+        <p>Nosso site tem como objetivo ajudar os usuários a se organizarem melhor por meio de uma lista de tarefas. Com ele, você pode adicionar novas tarefas, marcá-las como concluídas e excluí-las.</p>
+        <input type="text" id="tarefa" placeholder="Informe a tarefa">
+        <input type="date" id="dataTarefa">
+        <span onclick="addElemento()" class="addBtn">Incluir</span>
+    </div>
+    <ul id="itemLista">
+    </ul>
+    <span onclick="excluiLista()" id="btnLimpar">Limpar lista</span>
+    <script src="script.js"></script>
+</body>
+</html>
+
